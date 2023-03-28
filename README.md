@@ -19,10 +19,12 @@ function num() {
      console.log(42)
  }
 
-num()```
+num()
+```
 
--   Create a function that logs out the sum of all the lap times.
-
+- Create function that adds laps times.
+- Log the answer out 
+- Call the function to display the answer
 ```
 let lap1 = 34
 let lap2 = 33
@@ -37,7 +39,8 @@ console.log(totallaptimes)
     _console.log(lap1+lap2+lap3)_
 }
 
-lapsums()```
+lapsums()
+```
 
 
 
