@@ -42,7 +42,50 @@ console.log(totallaptimes)
 lapsums()
 ```
 
+- Create a function that increments the lapsCompleted variable with one
+- Run it three times 
 
 
+```let lapscompleted = 0 
+function incrementLap() {
+    lapscompleted = lapscompleted+1
+}
+
+incrementLap()
+incrementLap()
+incrementLap()
+
+
+console.log(lapscompleted)
+```
+
+* #### Core Exercise
+
+- increment the count varibiale when the button is clicked
+- change the count-el in the HTML to reflect the new count 
+
+
+
+- intialize the count as 0
+- listen for clicks on the increment button
+- increment the count variable when the button is clicked
+- change the count-el in the HTML to reflect the new count
+
+
+<Process exited with code 1
+Uncaught ReferenceError ReferenceError: document is not defined
+    at <anonymous> (undefined:15:13)
+    at Module._compile (undefined:1275:14)
+    at Module._extensions..js (undefined:1329:10)
+    at Module.load (undefined:1133:32)
+    at Module._load (undefined:972:12)
+    at executeUserEntryPoint (undefined:83:12)
+    at <anonymous> (undefined:23:47)
+No debugger available, can not send 'variables'>
+
+The above error is raised because the code is running in a non-browser environment, such as in a Node.js server-side application, and does not have access to the document object that is defined by the browser.
+
+
+- Document Object Model - How you ask Javascript to modify a website
 # LFG!!!!!
 
