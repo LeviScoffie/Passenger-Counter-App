@@ -59,7 +59,7 @@ incrementLap()
 console.log(lapscompleted)
 ```
 
-* #### Core Exercise
+ ### Core Exercise
 
 - increment the count varibiale when the button is clicked
 - change the count-el in the HTML to reflect the new count 
@@ -72,7 +72,7 @@ console.log(lapscompleted)
 - change the count-el in the HTML to reflect the new count
 
 
-<Process exited with code 1
+< Process exited with code 1
 Uncaught ReferenceError ReferenceError: document is not defined
     at <anonymous> (undefined:15:13)
     at Module._compile (undefined:1275:14)
@@ -81,7 +81,7 @@ Uncaught ReferenceError ReferenceError: document is not defined
     at Module._load (undefined:972:12)
     at executeUserEntryPoint (undefined:83:12)
     at <anonymous> (undefined:23:47)
-No debugger available, can not send 'variables'>
+No debugger available, can not send 'variables' >
 
 The above error is raised because the code is running in a non-browser environment, such as in a Node.js server-side application, and does not have access to the document object that is defined by the browser.
 
