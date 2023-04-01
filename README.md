@@ -59,7 +59,7 @@ incrementLap()
 console.log(lapscompleted)
 ```
 
-* #### Core Exercise
+ ### Core Exercise
 
 - increment the count varibiale when the button is clicked
 - change the count-el in the HTML to reflect the new count 
