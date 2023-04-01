@@ -86,6 +86,10 @@ No debugger available, can not send 'variables'>
 The above error is raised because the code is running in a non-browser environment, such as in a Node.js server-side application, and does not have access to the document object that is defined by the browser.
 
 
-- Document Object Model - How you ask Javascript to modify a website
+- Document Object Model - How you ask Javascript to modify a website.
+
+
+#### Personalise my App using Netlify
+
 # LFG!!!!!
 
